@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        this is the navbar component and will be shown on every route 
+       
         {children}</body>
     </html>
   );
