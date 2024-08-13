@@ -1,16 +1,9 @@
-import Link from 'next/link';
-
-function Header() {
-    return (
+import Links from "./links/links";
+function Navbar(){
+    return(
         <div>
-            <div>Navbar</div>
-            <div>
-                <Link href="/">homepage</Link>
-                <Link href="/About">about</Link>
-                <Link href="/Contact">Contact</Link>
-            </div>
+        <Links/>
         </div>
-    );
+    )
 }
-
-export default Header;
+export default Navbar;
